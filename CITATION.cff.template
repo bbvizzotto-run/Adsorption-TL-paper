@@ -1,0 +1,11 @@
+# Template only. Copy to CITATION.cff after all metadata and DOI are confirmed.
+cff-version: 1.2.0
+message: "If you use the released code, cite the versioned repository and associated article."
+title: "[Confirm final manuscript title]"
+authors:
+  - family-names: "[Family name]"
+    given-names: "[Given names]"
+version: "[Release version]"
+date-released: "[YYYY-MM-DD]"
+# doi: "[Zenodo version DOI, only after it is minted]"
+# url: "[Canonical GitHub repository URL]"

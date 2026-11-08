@@ -1,0 +1,11 @@
+# Tested environment: Python 3.12. TensorFlow 2.16.2 supports Python 3.9–3.12.
+# Use a dedicated virtual environment. Do not install into an existing production environment.
+tensorflow==2.16.2
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+openpyxl==3.1.5
+matplotlib==3.9.2
+joblib==1.6.0
+h5py==3.16.0
+keras==3.15.1

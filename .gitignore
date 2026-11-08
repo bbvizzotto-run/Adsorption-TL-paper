@@ -1,0 +1,33 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# No private experimental data or record-level derivatives
+*.xlsx
+**/dataset.csv
+**/observations.csv
+**/dataset_audit.csv
+**/exclusions.csv
+**/exclusion_counts.csv
+**/*partition_manifest.csv
+**/*fraction_manifest.csv
+**/*observed_predictions.csv
+**/*simulation_predictions.csv
+**/all_metrics.csv
+**/paired_comparisons.csv
+
+# Local model artifacts, logs and generated outputs
+*.keras
+*.weights.h5
+*.pkl
+*.pickle
+*.log
+**/results/run_*/
+**/outputs/
+**/protocol.json
+**/protocol.sha256

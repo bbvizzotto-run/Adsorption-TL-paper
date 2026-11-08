@@ -1,0 +1,9 @@
+# Source-code provenance
+
+The reviewed benchmark files in `benchmarks/endpoints/` were selected from the private research repository `bbvizzotto-run/Adsorption-Transfer-Learning`, specifically its endpoint benchmark implementation at source commit `0832ecbd7802038c59f1bc4fe7991fc7a94ef226`. They were placed in this repository as a fresh-history, data-free snapshot; the prior repository history was not imported.
+
+Before inclusion, the benchmark runner was changed to remove the developer-specific absolute workbook path, require an explicit workbook path, remove the private workbook's hard-coded expected SHA, and record only the workbook filename (not its local filesystem path) in a generated protocol. The architecture constructor was retained as a standalone definition but the earlier historical data-ingestion and training `main()`—which contains local paths—was excluded. The original code's data parsing, split generation, model training, metric calculation, and plot/diagnostic source files were otherwise selected for inclusion, subject to subsequent author review and testing.
+
+These privacy sanitizations mean that the files in this repository are **not byte-identical** to the code used for the archived full benchmark. The repository does not contain the data, record-level manifests, predictions, weights, or aggregate numeric results. Accordingly, it is a code snapshot, not a self-contained replication archive. Do not claim exact reproduction of the private run or the published metrics from this repository alone.
+
+For a formal article release, record the exact source commit, code diff, protocol version, environment, data access/rights status, and author approvals in the release metadata. This file should be updated to identify the final reviewed source revision before a public tag is created.

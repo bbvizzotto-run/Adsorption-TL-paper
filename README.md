@@ -4,7 +4,7 @@ This repository contains a data-free code snapshot and documentation for the end
 
 ## Release status
 
-Prepared software snapshot: version `0.1.0`, tag `v0.1.0`, dated `2026-11-07`. This is a preliminary code snapshot, not a full reproducibility package. No GitHub Release, Zenodo record, or DOI has been created. The Zenodo steps are documented in [`docs/ZENODO_RELEASE_STEPS.md`](docs/ZENODO_RELEASE_STEPS.md).
+Published software snapshot: version `0.1.0`, tag `v0.1.0`, archived in Zenodo on `2026-11-08`. This is a preliminary code snapshot, not a full reproducibility package. The version-specific DOI is [10.5281/zenodo.24059033](https://doi.org/10.5281/zenodo.24059033); the concept DOI, which resolves to the latest version, is [10.5281/zenodo.24059032](https://doi.org/10.5281/zenodo.24059032). The archive details and guidance for later versions are in [`docs/ZENODO_RELEASE_STEPS.md`](docs/ZENODO_RELEASE_STEPS.md).
 
 ## Scope and reproducibility status
 
@@ -47,10 +47,10 @@ The generated plan contains observation-level data, row/cell provenance, exclusi
 
 ## License and citation
 
-The software code is licensed under MIT; this does not license experimental data or authorize redistribution of workbook-derived records. The article title and author order in `CITATION.cff` were taken from the current manuscript. No author ORCIDs, article DOI, journal volume, or publication date were present in the manuscript and none have been invented.
+The software code is licensed under MIT; this does not license experimental data or authorize redistribution of workbook-derived records. The article title and author order in `CITATION.cff` were taken from the current manuscript. No article DOI, journal volume, or publication date were present in the manuscript; the Zenodo DOI above identifies the software archive, not the article.
 
 This code-only release is not a self-contained reproducibility archive. Review `docs/SCOPE_AND_LIMITATIONS.md`, `docs/DATA_AND_LICENSE_POLICY.md`, and `docs/SOURCE_PROVENANCE.md` before citing or reusing it.
 
 ## Zenodo
 
-The repository can be archived after a versioned GitHub release. See `docs/ZENODO_RELEASE_STEPS.md`. Do not cite a DOI until Zenodo has processed the release and the exact version DOI is visible on its record page.
+The `v0.1.0` GitHub release has been archived in Zenodo. Cite its version-specific DOI when referring to this exact code snapshot. Use the concept DOI only when referring to the software across versions.

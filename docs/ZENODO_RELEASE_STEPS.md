@@ -2,36 +2,29 @@
 
 ## Current repository state
 
-The GitHub repository is public, but no GitHub release or Zenodo record has been created. This code-only repository does not include the experimental workbook or row-level results, so a release here will archive the code snapshot—not reproduce or independently recalculate the manuscript metrics. Confirm that this is the intended scope with all authors before minting the first DOI.
+The GitHub release `v0.1.0` has been published and archived in Zenodo as [record 24059033](https://zenodo.org/records/24059033). Its version-specific DOI is `10.5281/zenodo.24059033`; the concept DOI representing all versions is `10.5281/zenodo.24059032`. This code-only archive does not include the experimental workbook or row-level results, so it archives the code snapshot but cannot reproduce or independently recalculate the manuscript metrics.
 
 ## Before creating a release
 
-1. Review the public tree and confirm that no experimental records, private manifests, predictions, weights, correspondence, or credentials are present.
-2. Confirm the software license and author list. The current `CITATION.cff` follows the author order on the manuscript title page. No ORCIDs or final publication metadata were present, so they were not guessed.
-3. Decide whether the repository snapshot is ready to cite as software. If it is only a preliminary code snapshot, identify that status in the release notes and do not present it as a full reproducibility package.
-4. Choose the version tag and update `CITATION.cff` and the README to the same version/date. The current software metadata is set to `0.1.0`; review that choice before tagging.
-5. Do not add a DOI manually before Zenodo creates the record. If later updating a DOI in `CITATION.cff`, remember that the file is part of the repository version and changing it after a release creates a new code state.
+1. For every future version, review the public tree and confirm that no experimental records, private manifests, predictions, weights, correspondence, or credentials have been added without approval.
+2. Keep the software license and author list consistent with the approved project metadata. The v0.1.0 `CITATION.cff` follows the author order on the manuscript title page; the current manuscript supplied no ORCIDs, which were not guessed.
+3. Describe the scope accurately. This archive is a preliminary code snapshot, not a full reproducibility package.
+4. For a future release, select a new version/tag and update `CITATION.cff`, the README, and release notes consistently before creating the tag.
+5. The v0.1.0 DOI has now been added to the current `CITATION.cff`. Do not alter or replace files in the already archived v0.1.0 snapshot. A metadata/code change after this archive belongs in a new commit and, if it is to be archived, a new release/version.
 
 ## Connect GitHub and Zenodo
 
-1. Sign in to Zenodo using the account that can access the GitHub repository and connect the GitHub account if it is not already linked.
-2. Open Zenodo’s GitHub settings, click **Sync now**, find `bbvizzotto-run/Adsorption-TL-paper`, and enable it.
-3. Confirm the repository appears as enabled. Zenodo’s integration only processes new GitHub releases created after the repository is enabled.
+The GitHub–Zenodo integration is active for this repository, as confirmed by the archived v0.1.0 record. If this link is ever reset, sign in to Zenodo using the GitHub account with repository access, open Zenodo’s GitHub settings, click **Sync now**, find `bbvizzotto-run/Adsorption-TL-paper`, and enable it again.
 
 ## Create and archive a GitHub release
 
-1. On GitHub, open **Releases → Draft a new release**.
-2. Create a version tag matching the reviewed `CITATION.cff` version, such as `v0.1.0` only if the authors approve that version.
-3. Use release notes that state this is a data-free code snapshot and that the experimental dataset and numeric result files are not included.
-4. Check the source branch, tag, release files, repository license, and public file tree, then publish the release.
-5. Return to Zenodo’s GitHub page and wait for the release to be processed. Open the generated Zenodo record and verify its title, creators/order, description, license, version, GitHub tag, and archived files. Check that its external-resources section reports the archive status.
-6. Copy the DOI shown on the Zenodo record only after it resolves to the correct version. Zenodo distinguishes a version-specific DOI from a concept DOI covering all versions; normally cite the version-specific DOI for reproducibility.
+For future releases only: on GitHub, open **Releases → Draft a new release**, select a new tag matching the updated `CITATION.cff` version, and include notes identifying the archive as data-free. Recheck the public file tree, license, and release assets before publishing. Then wait for Zenodo to process it, verify the metadata and archived files, and record the new version-specific DOI. Zenodo assigns a concept DOI for all versions as well; normally cite the exact version DOI for reproducibility.
 
 ## After Zenodo assigns the DOI
 
-- Add the version-specific DOI to the manuscript’s software/code availability statement and cite it in the software reference list if the journal permits.
-- Add it to a subsequent README or citation-file update only if that update is intentional and versioned; do not edit the already archived release in a way that suggests its contents changed.
-- Keep the GitHub tag, Zenodo version, `CITATION.cff`, and article citation consistent. Use the concept DOI only when the citation is intentionally meant to refer to the evolving software as a whole.
+- The v0.1.0 version-specific DOI is `10.5281/zenodo.24059033`; its concept DOI is `10.5281/zenodo.24059032`.
+- Cite the version-specific DOI in the manuscript’s software/code availability statement and reference list if the journal permits.
+- Keep the GitHub tag, Zenodo version, `CITATION.cff`, and software citation consistent. Use the concept DOI only when referring to the evolving software across versions.
 
 ## Official instructions
 

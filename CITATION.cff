@@ -3,7 +3,8 @@ message: "Please cite this software release when using the code. For the associa
 type: software
 title: "Code for: Transfer Learning-Based Recurrent Neural Networks for Predicting Al(III) and Fe(III) Removal by Raw and Functionalized Silicas"
 version: "0.1.0"
-date-released: "2026-11-07"
+date-released: "2026-11-08"
+doi: "10.5281/zenodo.24059033"
 license: MIT
 repository-code: "https://github.com/bbvizzotto-run/Adsorption-TL-paper"
 abstract: >-

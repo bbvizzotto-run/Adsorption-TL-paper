@@ -25,4 +25,4 @@ The data-free unit tests passed in the prepared environment, and `CITATION.cff` 
 
 ## Citation metadata
 
-The current article manuscript did not provide author ORCIDs, an article DOI, journal volume, pages, or publication date. These fields are intentionally omitted rather than guessed. No Zenodo DOI has been assigned; add one only after Zenodo processes and publishes the corresponding GitHub release. Use the DOI for the exact archived version when citing this code snapshot.
+The current article manuscript did not provide author ORCIDs, an article DOI, journal volume, pages, or publication date. These fields are intentionally omitted rather than guessed. Zenodo published this software version on 2026-11-08: the version-specific DOI is `10.5281/zenodo.24059033`, and the concept DOI for all versions is `10.5281/zenodo.24059032`. Cite the version-specific DOI when referring to this exact code snapshot; the article itself has no DOI recorded here.

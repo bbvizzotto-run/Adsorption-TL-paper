@@ -1,11 +1,43 @@
-# Template only. Copy to CITATION.cff after all metadata and DOI are confirmed.
+# Metadata verified from the current manuscript. No article DOI/publication metadata were present.
 cff-version: 1.2.0
-message: "If you use the released code, cite the versioned repository and associated article."
-title: "[Confirm final manuscript title]"
+message: "Please cite this software release when using the code. For the associated article, cite its final published bibliographic record when available."
+type: software
+title: "Code for: Transfer Learning-Based Recurrent Neural Networks for Predicting Al(III) and Fe(III) Removal by Raw and Functionalized Silicas"
+version: "0.1.0"
+date-released: "2026-11-07"
+license: MIT
+repository-code: "https://github.com/bbvizzotto-run/Adsorption-TL-paper"
+abstract: >-
+  Data-free code snapshot for an endpoint-prediction benchmark using LSTM and
+  transfer learning for Al(III) and Fe(III) removal responses on raw and
+  functionalized silicas. Experimental records and row-level outputs are not
+  included; this software snapshot alone cannot reproduce the reported numeric
+  results.
+keywords:
+  - adsorption
+  - endpoint prediction
+  - transfer learning
+  - long short-term memory
+  - aluminum
+  - iron
+  - silica
+  - chemical engineering
 authors:
-  - family-names: "[Family name]"
-    given-names: "[Given names]"
-version: "[Release version]"
-date-released: "[YYYY-MM-DD]"
-# doi: "[Zenodo version DOI, only after it is minted]"
-# url: "[Canonical GitHub repository URL]"
+  - given-names: "Bruno Boessio"
+    family-names: "Vizzotto"
+  - given-names: "Sabrina F."
+    family-names: "Lütke"
+  - given-names: "Rafaela Moura"
+    family-names: "Rodrigues"
+  - given-names: "Thiago Roger"
+    family-names: "Zago"
+  - given-names: "Eder Claudio"
+    family-names: "Lima"
+  - given-names: "Guilherme Luiz"
+    family-names: "Dotto"
+  - given-names: "Suliman Yousef"
+    family-names: "Alomar"
+  - given-names: "Noha A."
+    family-names: "Tashkandi"
+  - given-names: "Ana Carolina Ferreira Piazzi"
+    family-names: "Fuhr"

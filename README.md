@@ -2,6 +2,10 @@
 
 This repository contains a data-free code snapshot and documentation for the endpoint benchmark associated with the manuscript *Transfer Learning-Based Recurrent Neural Networks for Predicting Al(III) and Fe(III) Removal by Raw and Functionalized Silicas*.
 
+## Release status
+
+Prepared software snapshot: version `0.1.0`, tag `v0.1.0`, dated `2026-11-07`. This is a preliminary code snapshot, not a full reproducibility package. No GitHub Release, Zenodo record, or DOI has been created. The Zenodo steps are documented in [`docs/ZENODO_RELEASE_STEPS.md`](docs/ZENODO_RELEASE_STEPS.md).
+
 ## Scope and reproducibility status
 
 The benchmark evaluates prediction of recorded endpoint responses under temperature-held-out partitions. It does not validate unmeasured kinetic trajectories, identify kinetic rate laws, establish adsorption-exclusive removal, or by itself prove laboratory savings.
